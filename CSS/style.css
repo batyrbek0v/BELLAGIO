@@ -214,12 +214,10 @@ ul{
         font-size: 50px;
     }
     .span1{
-        top: 114px;
-        left: 5%;
+        display: none;
     }
     .span2{
-        top: 114px;
-        left: 76%;
+       display: none;
     }
     .header_banner_btn{
         width: 200px;
