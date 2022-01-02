@@ -325,6 +325,9 @@ ul{
         top: 120%;
         left: 15%;
     }
+    .header_banner_cards{
+        right:10%;
+    }
     .header_card{
         width: 290px;
         height: 300px;
