@@ -243,12 +243,12 @@ ul {
 
 .header_cards_content {
     text-align: center;
-    font-family: "Tinos", serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header_cards_content h1 {
     font-size: 26px;
-    font-family: "Tinos", serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     margin: 0;
 }
@@ -259,7 +259,7 @@ ul {
 
 .header_cards_content p {
     color: #656363;
-    font-size: 26px;
+    font-size: 23px;
     margin: 0%;
     margin-top: 20px;
 }
@@ -289,6 +289,7 @@ ul {
     width: 80%;
     margin: auto;
     height: 70%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .center_block_left_container {
@@ -311,7 +312,7 @@ ul {
 .center_block_left_container h1 {
     margin: 0;
     color: black;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 54px;
 }
 
@@ -376,6 +377,8 @@ ul {
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .center_block_body_left_container h1 {
@@ -386,6 +389,7 @@ ul {
 
 .center_block_body_left_container p {
     color: white;
+    font-weight: 700;
     font-size: 24px;
 }
 
@@ -403,8 +407,13 @@ ul {
     color: white;
     font-size: 14px;
     border-radius: 2px;
+    transition: 0.3s;
+    font-weight: 700;
+    cursor: pointer;
 }
-
+.center_block_body_right_container button:hover{
+    background: #b15204 ;
+}
 
 
 /* center block end */
@@ -421,11 +430,12 @@ ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .center_block2_header h1 {
     font-size: 54px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .center_block2_header h1 span {
@@ -455,6 +465,8 @@ ul {
     list-style: none;
     padding-left: 0;
     margin: 0;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .center_block2_body_list li {
@@ -474,6 +486,7 @@ ul {
 
 section.our-menu-block {
     background: url("/image/menu-banner.png") no-repeat center / cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .menu-block {
@@ -514,6 +527,8 @@ section.our-menu-block {
     content: "RECOMENDED";
     position: absolute;
     background-color: #d67e34;
+    color: white;
+    box-shadow: 0 5px 15px black;
     font-size: 13px;
     line-height: 18px;
     font-weight: 500;
@@ -572,7 +587,7 @@ section.our-menu-block {
     margin: 0;
     font-size: 26px;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 500;
     padding-bottom: 17px;
 }
 
@@ -600,8 +615,11 @@ section.our-menu-block {
     padding: 14px 68px;
     background-color: #d67e34;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
 }
-
+.card-btn:hover{
+    background-color: #b15204;
+}
 .card-btn a {
     font-size: 16px;
     line-height: 22px;
@@ -674,6 +692,7 @@ section.view-block {
     max-width: 90%;
     margin: 0 auto;
     padding: 0 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .gallery {
@@ -703,7 +722,7 @@ section.view-block {
 .title {
     font-size: 54px;
     line-height: 62px;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -715,14 +734,11 @@ section.view-block {
     padding: 15px;
 }
 
-.cooker {
-    margin-top: 100px;
-}
 
 .cooker_photo {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .cooker_photo img {
@@ -730,7 +746,7 @@ section.view-block {
 }
 
 footer {
-    margin-top: 100px;
+    margin-top: 50px;
     background: url('/image/footer-bg.jpg')center / cover;
     width: 100%;
     padding: 50px 0;
@@ -1013,6 +1029,15 @@ footer {
 
     .header_card {
         margin-left: 25px;
+    }
+    .center_block{
+        margin-top: 0px;
+    }
+    .center_block_header{
+        padding-top: 50px;
+    }
+    footer{
+        margin-top: 30px;
     }
 }
 
