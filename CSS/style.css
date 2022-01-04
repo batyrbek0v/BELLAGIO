@@ -1105,23 +1105,29 @@ footer {
     .header_cards_content p {
         font-size: 22px;
     }
+    .cooker_photo{
+        justify-content: flex-end;
+        margin-right: 15px;
+    }
     .cooker_photo img {
         width: 270px;
-    }
-
-    footer {
-        margin-top: 50px;
+        margin-left: 0;
     }
 
     .gallery {
         margin-top: 50px;
     }
-    .cooker_photo img{
-        margin-left: 0;
+    .gallery_img{
+        padding:5px;
+        width: 300px;
     }
     .card {
         width: 95%;
     }
+    footer {
+        margin-top: 50px;
+    }
+
 }
 
 @media screen and (max-width: 320px) {
@@ -1130,5 +1136,12 @@ footer {
     }
     .gallery_img {
         width: 290px;
+        margin: 0;
+    }
+    .cooker_photo{
+        justify-content:flex-end;
+    }
+    .cooker_photo img{
+        width: 230px;
     }
 }
